@@ -26,7 +26,7 @@ function Contact() {
             </a>
           </div>
           <div id="contact-num">
-            <a href="">
+            <a href="/">
               <FiPhoneCall />
               <p>Phone: 9862713336</p>
             </a>
