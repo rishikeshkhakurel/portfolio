@@ -70,9 +70,8 @@ const AboutStyle = styled.div`
   }
 
   #name {
-    width: 19ch;
-    animation: typing 4s steps(19) infinite alternate,
-      blink 0.5s step-end infinite alternate;
+    width: 18ch;
+    animation: typing 3s steps(19), blink 0.5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
