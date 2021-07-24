@@ -11,10 +11,10 @@ function App() {
       <SapLayout>
         <Switch>
           <Route path="/" exact>
-            <Dashboard />
-          </Route>
-          <Route path="/about" exact>
             <About />
+          </Route>
+          <Route path="/portfolio" exact>
+            <Dashboard />
           </Route>
           <Route path="/resume" exact>
             <Resume />

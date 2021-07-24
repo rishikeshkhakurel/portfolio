@@ -20,9 +20,9 @@ function SideNavbar(props) {
               <p>HOME</p>
             </div>
           </Link>
-          <Link to="/about" className="a-tag">
+          <Link to="/portfolio" className="a-tag">
             <div className="navbar-icon">
-              <p>ABOUT</p>
+              <p>PORTFOLIO</p>
             </div>
           </Link>
           <Link to="/resume" className="a-tag">
