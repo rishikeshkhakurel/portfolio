@@ -16,19 +16,19 @@ function Contact() {
           <div id="mail">
             <a href="mailto:khakurel.rishikesh1@gmail.com">
               <GiMailbox />
-              <p>Email: khakurel.rishikesh1@gmail.com</p>
+              <p>khakurel.rishikesh1@gmail.com</p>
             </a>
           </div>
           <div id="github">
             <a href="https://github.com/rishikeshkhakurel">
               <AiFillGithub />
-              <p>GitHub: Rishikesh Khakurel</p>
+              <p>Rishikesh Khakurel</p>
             </a>
           </div>
           <div id="contact-num">
             <a href="/">
               <FiPhoneCall />
-              <p>Phone: 9862713336</p>
+              <p>9862713336</p>
             </a>
           </div>
           <div id="facebook">

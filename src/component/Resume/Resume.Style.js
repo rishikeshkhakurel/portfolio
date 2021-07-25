@@ -42,6 +42,7 @@ const ResumeStyle = styled.div`
   @media screen and (max-width: 410px) {
     #resume {
       padding: 7px;
+      width: 84%;
     }
   }
 `;

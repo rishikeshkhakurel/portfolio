@@ -71,6 +71,7 @@ const SideNavbarStyle = styled.div`
   }
 
   @media screen and (max-width: 1100px) {
+    position: absolute;
     min-width: 300px;
 
     #sidebar-display {

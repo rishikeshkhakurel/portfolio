@@ -23,22 +23,34 @@ function SideNavbar() {
           <p id="intro">Full Stack Web Developer</p>
         </div>
         <div id="navbar">
-          <Link to="/" className="a-tag">
+          <Link to="/" className="a-tag" onClick={(e) => setDisplay(false)}>
             <div className="navbar-icon">
               <p>HOME</p>
             </div>
           </Link>
-          <Link to="/portfolio" className="a-tag">
+          <Link
+            to="/portfolio"
+            className="a-tag"
+            onClick={(e) => setDisplay(false)}
+          >
             <div className="navbar-icon">
               <p>PORTFOLIO</p>
             </div>
           </Link>
-          <Link to="/resume" className="a-tag">
+          <Link
+            to="/resume"
+            className="a-tag"
+            onClick={(e) => setDisplay(false)}
+          >
             <div className="navbar-icon">
               <p>RESUME</p>
             </div>
           </Link>
-          <Link to="/contact" className="a-tag">
+          <Link
+            to="/contact"
+            className="a-tag"
+            onClick={(e) => setDisplay(false)}
+          >
             <div className="navbar-icon">
               <p>CONTACT</p>
             </div>

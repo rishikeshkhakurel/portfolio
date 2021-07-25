@@ -34,7 +34,10 @@ const ContactStyled = styled.div`
 
     #contact {
       padding: 10px;
-      width: 95%;
+    }
+
+    #title {
+      width: 84%;
       margin-left: 35px;
     }
   }
@@ -42,6 +45,10 @@ const ContactStyled = styled.div`
   @media screen and (max-width: 410px) {
     #contact {
       padding: 7px;
+    }
+
+    #mail p {
+      font-size: 22px;
     }
   }
 `;

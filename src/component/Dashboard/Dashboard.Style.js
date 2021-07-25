@@ -45,7 +45,7 @@ const DashboardStyle = styled.div`
 
     #dashboard {
       padding: 10px;
-      width: 95%;
+      width: 85%;
       margin-left: 35px;
     }
 

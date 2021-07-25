@@ -23,7 +23,7 @@ function About() {
               </p>
             </div>
             <div id="btn">
-              <Link to="/">
+              <Link to="/portfolio">
                 <button>View Portfolio</button>
               </Link>
               <Link to="/resume">
