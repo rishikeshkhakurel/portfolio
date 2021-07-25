@@ -9,11 +9,15 @@ function SideNavbar() {
   return (
     <SideNavbarStyle>
       <div id={display ? "open-icon-none" : "open-icon"}>
-        <AiOutlineMenu onClick={(e) => setDisplay(true)} />
+        <div className="icon">
+          <AiOutlineMenu onClick={(e) => setDisplay(true)} />
+        </div>
       </div>
       <div id={display ? "sidebar" : "sidebar-display"}>
         <div id="close-icon">
-          <AiOutlineCloseCircle onClick={(e) => setDisplay(false)} />
+          <div className="icon">
+            <AiOutlineCloseCircle onClick={(e) => setDisplay(false)} />
+          </div>
         </div>
         <div id="image">
           <img src={pp} alt="" />

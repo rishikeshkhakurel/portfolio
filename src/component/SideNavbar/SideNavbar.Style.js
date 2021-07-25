@@ -46,6 +46,10 @@ const SideNavbarStyle = styled.div`
     width: 100%;
   }
 
+  .icon {
+    cursor: pointer;
+  }
+
   .navbar-icon {
     color: var(--primat-text-sec);
     width: 90%;
@@ -84,7 +88,7 @@ const SideNavbarStyle = styled.div`
     }
 
     #close-icon {
-      display: block;
+      display: flex;
       width: 100%;
       padding-right: 20px;
       padding-top: 20px;
