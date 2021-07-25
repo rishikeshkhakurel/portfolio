@@ -6,7 +6,10 @@ function Resume() {
   return (
     <ResumeStyle>
       <div id="resume">
-        <embed src={cv} width="90%" height="100%" />
+        <div id="title">
+          <p>RESUME</p>
+        </div>
+        <embed src={cv} id="pdf" />
       </div>
     </ResumeStyle>
   );

@@ -38,6 +38,35 @@ const DashboardStyle = styled.div`
   a {
     color: var(--primary-text);
   }
+
+  @media screen and (max-width: 1100px) {
+    margin-left: 0 !important;
+    width: 100%;
+
+    #dashboard {
+      padding: 10px;
+      width: 95%;
+      margin-left: 35px;
+    }
+
+    .portfolio-list {
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 100% !important;
+      }
+    }
+
+    #hidden {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 410px) {
+    #dashboard {
+      padding: 7px;
+    }
+  }
 `;
 
 export default DashboardStyle;

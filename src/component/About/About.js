@@ -9,7 +9,7 @@ function About() {
     <AboutStyle>
       <div id="about">
         <div id="title">
-          <p>About</p>
+          <p>ABOUT</p>
         </div>
         <div id="content">
           <div id="body">

@@ -27,6 +27,23 @@ const ContactStyled = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 1100px) {
+    margin-left: 0 !important;
+    width: 100%;
+
+    #contact {
+      padding: 10px;
+      width: 95%;
+      margin-left: 35px;
+    }
+  }
+
+  @media screen and (max-width: 410px) {
+    #contact {
+      padding: 7px;
+    }
+  }
 `;
 
 export default ContactStyled;

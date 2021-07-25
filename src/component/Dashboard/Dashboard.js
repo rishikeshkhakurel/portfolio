@@ -38,7 +38,7 @@ function Dashboard() {
             </a>
             <p>Apple stock clone dark theme.</p>
           </div>
-          <div className="port" style={{ visibility: "hidden" }}>
+          <div className="port" id="hidden" style={{ visibility: "hidden" }}>
             <img src={stock} alt="" />
             <p>Stock Clone</p>
           </div>

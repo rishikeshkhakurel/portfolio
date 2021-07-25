@@ -17,12 +17,15 @@ const AboutStyle = styled.div`
   #content {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 
   #image {
     width: 60%;
     img {
-      height: 85vh;
+      width: 100%;
+      height: 80vh;
+      object-fit: cover;
     }
   }
   #name {
@@ -104,6 +107,39 @@ const AboutStyle = styled.div`
   .skills {
     margin-top: 20px;
     display: flex;
+  }
+
+  @media screen and (max-width: 1100px) {
+    margin-left: 0 !important;
+    width: 100%;
+
+    #about {
+      padding: 10px;
+      width: 95%;
+    }
+
+    #content {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+
+      #body {
+        width: 100%;
+      }
+      #image {
+        width: 100%;
+      }
+    }
+
+    #title {
+      margin-left: 35px;
+    }
+  }
+
+  @media screen and (max-width: 410px) {
+    #about {
+      padding: 7px;
+    }
   }
 `;
 

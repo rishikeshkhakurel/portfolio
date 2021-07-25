@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import SideNavbarStyle from "./SideNavbar.Style";
 import pp from "../../common/Assets/rishi.jpg";
 import { Link } from "react-router-dom";
+import { AiOutlineCloseCircle, AiOutlineMenu } from "react-icons/ai";
 
-function SideNavbar(props) {
+function SideNavbar() {
+  const [display, setDisplay] = useState(false);
   return (
     <SideNavbarStyle>
-      <div id="sidebar">
+      <div id={display ? "open-icon-none" : "open-icon"}>
+        <AiOutlineMenu onClick={(e) => setDisplay(true)} />
+      </div>
+      <div id={display ? "sidebar" : "sidebar-display"}>
+        <div id="close-icon">
+          <AiOutlineCloseCircle onClick={(e) => setDisplay(false)} />
+        </div>
         <div id="image">
           <img src={pp} alt="" />
         </div>
