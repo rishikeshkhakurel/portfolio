@@ -45,7 +45,7 @@ function About() {
                 <Skills name="JavaScript" num="5" />
               </div>
               <div className="skills">
-                <Skills name="TypeScript" num="4" />
+                <Skills name="TypeScript" num="2" />
               </div>
               <div className="skills">
                 <Skills name="React" num="4" />
