@@ -14,10 +14,12 @@ const SideNavbarStyle = styled.div`
   }
 
   #image {
-    width: 50%;
+    width: 100%;
     margin: 60px 0px;
+    display: flex;
+    justify-content: center;
     img {
-      width: 100%;
+      width: 50%;
       border-radius: 50%;
     }
   }
