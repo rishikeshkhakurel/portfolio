@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/static/js/main.3259c2c2.chunk.js",
-    "main.js.map": "/static/js/main.3259c2c2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
-    "static/js/2.f8b2519e.chunk.js": "/static/js/2.f8b2519e.chunk.js",
-    "static/js/2.f8b2519e.chunk.js.map": "/static/js/2.f8b2519e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.f8b2519e.chunk.js.LICENSE.txt": "/static/js/2.f8b2519e.chunk.js.LICENSE.txt",
-    "static/media/blognepal.d5cb14de.jpg": "/static/media/blognepal.d5cb14de.jpg",
-    "static/media/facebook.4b507a70.jpg": "/static/media/facebook.4b507a70.jpg",
-    "static/media/rishi.5c2520a6.png": "/static/media/rishi.5c2520a6.png",
-    "static/media/rishi.f5e3d177.jpg": "/static/media/rishi.f5e3d177.jpg",
-    "static/media/rishikesh_cv.46cace1c.pdf": "/static/media/rishikesh_cv.46cace1c.pdf",
-    "static/media/stock.58f7f8af.jpg": "/static/media/stock.58f7f8af.jpg"
+    "main.js": "/portfolio_deploy/static/js/main.b1269328.chunk.js",
+    "main.js.map": "/portfolio_deploy/static/js/main.b1269328.chunk.js.map",
+    "runtime-main.js": "/portfolio_deploy/static/js/runtime-main.0d054dc3.js",
+    "runtime-main.js.map": "/portfolio_deploy/static/js/runtime-main.0d054dc3.js.map",
+    "static/js/2.b831e3ba.chunk.js": "/portfolio_deploy/static/js/2.b831e3ba.chunk.js",
+    "static/js/2.b831e3ba.chunk.js.map": "/portfolio_deploy/static/js/2.b831e3ba.chunk.js.map",
+    "index.html": "/portfolio_deploy/index.html",
+    "static/js/2.b831e3ba.chunk.js.LICENSE.txt": "/portfolio_deploy/static/js/2.b831e3ba.chunk.js.LICENSE.txt",
+    "static/media/blognepal.d5cb14de.jpg": "/portfolio_deploy/static/media/blognepal.d5cb14de.jpg",
+    "static/media/facebook.4b507a70.jpg": "/portfolio_deploy/static/media/facebook.4b507a70.jpg",
+    "static/media/rishi.5c2520a6.png": "/portfolio_deploy/static/media/rishi.5c2520a6.png",
+    "static/media/rishi.f5e3d177.jpg": "/portfolio_deploy/static/media/rishi.f5e3d177.jpg",
+    "static/media/rishikesh_cv.e1c25ace.pdf": "/portfolio_deploy/static/media/rishikesh_cv.e1c25ace.pdf",
+    "static/media/stock.58f7f8af.jpg": "/portfolio_deploy/static/media/stock.58f7f8af.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ebc510a.js",
-    "static/js/2.f8b2519e.chunk.js",
-    "static/js/main.3259c2c2.chunk.js"
+    "static/js/runtime-main.0d054dc3.js",
+    "static/js/2.b831e3ba.chunk.js",
+    "static/js/main.b1269328.chunk.js"
   ]
 }
